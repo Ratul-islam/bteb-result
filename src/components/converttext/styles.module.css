@@ -1,0 +1,20 @@
+.textArea {
+    width: 600px;
+    height: 300px;
+    margin-bottom: 50px;
+    resize: vertical;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.btn {
+    cursor: pointer;
+    width: 180px;
+    aspect-ratio: 4/1;
+    margin: auto;
+    border: none;
+    background-color: turquoise;
+    color: white;
+    font-weight: 600;
+}
