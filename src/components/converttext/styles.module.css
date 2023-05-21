@@ -1,10 +1,14 @@
 .textArea {
-    width: 600px;
+    width: clamp(20rem, 30vw, 60rem);
     height: 300px;
-    margin-bottom: 50px;
+    margin-block: 50px;
     resize: vertical;
     box-sizing: border-box;
     padding: 20px;
+}
+.input {
+    height: 40px;
+    padding-inline: 20px;
 }
 .form {
     display: flex;
