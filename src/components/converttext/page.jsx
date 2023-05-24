@@ -57,7 +57,6 @@ const handlebtn = (e) =>{
            }
        }
        
-       e.target.setAttribute('disabled', 'disabled')
        // e.target.styles.backgroundColor = 'gray';
     }
 //     const consoleValue = () =>{
